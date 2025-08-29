@@ -12,7 +12,7 @@ const Hero = () => {
           alt="Modern construction site"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-construction-gray/90 via-construction-gray/70 to-construction-gray/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/40"></div>
       </div>
 
       {/* Content */}

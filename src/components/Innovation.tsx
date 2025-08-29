@@ -26,7 +26,7 @@ const Innovation = () => {
   ];
 
   return (
-    <section id="innovation" className="py-20 bg-construction-gray text-white relative overflow-hidden">
+    <section id="innovation" className="py-20 bg-black text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-32 h-32 border border-white/20 rounded-full"></div>
