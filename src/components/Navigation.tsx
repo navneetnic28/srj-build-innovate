@@ -18,11 +18,10 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Building className="w-6 h-6 text-primary-foreground" />
+          <div className="flex items-center">
+            <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
+              <Building className="w-8 h-8 text-primary-foreground" />
             </div>
-            <span className="font-bold text-xl text-construction-gray">SRJ CONSTRUCTION</span>
           </div>
 
           {/* Desktop Menu */}
