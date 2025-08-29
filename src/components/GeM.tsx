@@ -81,7 +81,7 @@ const GeM = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-construction-gray rounded-2xl p-8 md:p-12 text-center text-white">
+        <div className="bg-black rounded-2xl p-8 md:p-12 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">
             Ready for Government Projects
           </h3>

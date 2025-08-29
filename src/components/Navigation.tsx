@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Building } from "lucide-react";
+import logooImage from "@/assets/logoo.jpg";
+
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +21,12 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="w-12 h-12 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Building className="w-8 h-8 text-primary-foreground" />
+            <div className="w-36 h-16 bg-gradient-hero rounded-lg flex items-center justify-center">
+              <img
+          src={logooImage}
+          alt="Modern construction site"
+          className="w-full h-full object-cover"
+        />
             </div>
           </div>
 
